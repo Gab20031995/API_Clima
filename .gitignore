@@ -1,0 +1,7 @@
+# Esto crea el archivo y agrega las carpetas que no queremos en GitHub
+"venv/
+.env
+staging/
+.cache/
+__pycache__/
+*.json" | Out-File -FilePath .gitignore -Encoding utf8
